@@ -1,0 +1,96 @@
+root{
+    --background:#F0F4F7;
+    --gray-1: #696969;
+    --dark-text: #202020;
+    --primary:#a36884;
+    --primary-bright:#FF1654;
+
+}
+
+body{
+    background-color:var(--background);
+    height:calc(100vh-56px);
+    padding: 0;
+    margin:0;
+
+
+
+
+}
+
+.navbar{
+    background-color:var(--primary);
+}
+
+main{
+    display:flex;
+    height:calc(100vh-56px);
+}
+
+
+h1{
+    color:  red;
+    
+}
+
+.container{
+    display:flex;
+
+}
+
+section{
+    flex:1;
+    color: red;
+}
+
+#list{
+    flex: 10;
+    background-image:url(https://wallpaperaccess.com/full/2083784.jpg);
+    background-repeat:no-repeat;
+}
+
+#capture-form{
+    flex:3;
+    background-color: white;
+    height: 100%;
+    padding: 20px;
+    box-shadow:0px 0 15px #485482;
+
+}
+
+h3{
+    font-family:arial,serif;
+    font-size:22px;
+    font-weight:bold;
+    color:var(--dark-text);
+    text-align:center;
+    margin-bottom: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+#iImportant{
+    font-size:32px;
+    cursor:pointer;
+}
+
+.task{
+    display:flex;
+}
+
+.task .important{
+    flex: 1;
+}
+
+.task .description{
+    flex: 5;
+}
+
+.task .due-date{
+    flex: 2;
+}
+
+.task .location{
+    flex: 2;
+}
